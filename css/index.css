@@ -1,0 +1,702 @@
+body{
+	background-color: #fff;
+	margin:0;
+	padding: 0;
+}
+
+tr, td {margin: 0; padding: 0; border: 0;} 	
+
+@font-face {
+	font-family: candy;
+	font-weight: bold;
+	src: url("candy.otf") format("opentype");
+}
+
+.fuente-candy{
+	color:#fff;
+	font-weight: bold;
+	font-family:'Candy','Lily Script One';
+}
+
+.fuente-arial{
+	color:#fff;
+	font-family:'Arial';
+}
+
+#barraCargando{
+	z-index:99;
+	position:fixed;
+	top:0px; left:0px;
+	width:100%;
+	background-color: #000;
+	text-align:center;
+	font-family:'Candy','Lily Script One';
+	color: #fff;
+	font-size: 50px;
+	padding:12px 0px;
+}
+
+#barraCargando:hover{background-color: #000;}
+
+#cajaGrande, #idioma{min-width: 1300px; width:100%;}
+.caja{ width:1300px;}
+
+/**********************************SOMBRA*********************************/
+
+.sombra{
+	width: 100%;
+	margin-top: -20%;
+	height: 200%;
+	background-color: #000;
+	position: fixed;
+	opacity: 0.85;
+	z-index: 10;
+}
+/**********************************INICIO*********************************/
+
+#inicio{margin-top: 100px; height: 200px;}
+#inicio img{margin: 0; width: 180px; cursor: pointer;}
+
+/**********************************GUIA*********************************/
+
+#guia{
+	background-image: url(../img/elementos/2GUIAsintexto.png);
+	background-repeat:no-repeat;
+	background-position:center; 
+	height: 1000px;
+	margin-bottom: 110px;
+	padding-top:220px;
+}
+
+#guiaElementos1{
+	display: block;
+	margin-left: 710px;
+	margin-top: 80px;
+	position: absolute;
+}
+#guiaElementos2{
+	margin-left: 90px;
+	margin-top: 208px;
+	position: absolute;
+}
+#guiaElementos3{
+	display: block;
+	margin-top: 240px;
+	margin-left: 222px;
+	position: absolute;
+}
+
+#guia-hola{
+	display: block;
+	font-size: 77px;
+	margin-right: 195px;
+	margin-top: 20px;
+    -webkit-transform: rotate(346deg);
+    -moz-transform: rotate(346deg);
+    -o-transform: rotate(346deg);
+    writing-mode: lr-tb;
+}
+
+#guia-somos{
+	display: block;
+	font-weight: bold;
+	margin-right: 140px;
+	-webkit-transform: rotate(346deg);
+    -moz-transform: rotate(346deg);
+    -o-transform: rotate(346deg);
+    writing-mode: lr-tb;
+}
+
+#guia-instrucciones{
+	display:block;
+	font-size: 15px;
+	margin-top: 90px;
+	margin-left: 247px;
+	width: 135px;
+	font-weight: bold;
+
+	-webkit-transform: rotate(354deg);
+    -moz-transform: rotate(354deg);
+    -o-transform: rotate(354deg);
+    writing-mode: lr-tb;
+
+
+}
+
+#guia-disfruta{
+	display: block;
+	font-size: 52px;
+	line-height: 0.9;
+	margin-left: 345px;
+	width: 135px;
+    -webkit-transform: rotate(352deg);
+    -moz-transform: rotate(352deg);
+    -o-transform: rotate(352deg);
+	writing-mode: lr-tb;
+}
+/********************************* HOME *********************************/
+#home{
+	background-image: url(../img/elementos/3HOMEsintexto.png);
+	background-repeat:no-repeat;
+	background-position:center; 
+	height: 947px;
+	padding-top: 150px;
+}
+
+#homeElementos1{
+	display: block;
+	margin-top: 20px;
+	margin-left: 408px;	
+	float: right;
+	position: absolute;
+    -webkit-transform: rotate(356deg);
+    -moz-transform: rotate(356deg);
+    -o-transform: rotate(356deg);
+}
+
+#homeElementos2{
+	display: block;
+	margin-top: 100px;
+	margin-left: 190px;	
+	position: absolute;
+}
+
+#home-title{
+	display: block;
+	font-size: 70px;
+	line-height: 0.6;
+	width: 457px;
+	margin-right: 315px;
+	margin-bottom: 70px;
+
+    -webkit-transform: rotate(349deg);
+    -moz-transform: rotate(349deg);
+    -o-transform: rotate(349deg);
+    writing-mode: lr-tb;
+}
+
+#home-descripcion{	margin-right: 100px;}
+#home-descripcion p{
+	width: 530px;
+	text-align: left;
+	font-size: 16px;
+	margin-right: 140px;
+	font-weight: bold;
+    -webkit-transform: rotate(351deg);
+    -moz-transform: rotate(351deg);
+    -o-transform: rotate(351deg);
+    writing-mode: lr-tb;
+}
+
+#homep2{margin-left: 20px;}
+#homep3{margin-left: 42px;}
+/********************************** QUIENES SOMOS *********************************/
+
+#quienes_somos{
+	background-image: url(../img/elementos/4QUIENESSOMOSsintexto.png);
+	background-size: 100% 850px;
+	background-repeat:no-repeat;
+	background-position:center; 
+	height: 850px;
+	padding-top: 340px;
+}
+
+#quienes_somosElementos{
+	margin-top: -240px;
+	margin-left: 638px;
+}
+
+#quienes-title{
+	text-align: left;
+	font-size: 72px;
+	margin-left: 180px;
+	display: block;
+	margin-bottom: 60px;
+	-webkit-transform: rotate(350deg);
+    -moz-transform: rotate(350deg);
+    -o-transform: rotate(350deg);
+    writing-mode: lr-tb;
+}
+
+#quienes-descripcion{
+	display: block;
+	margin-right: 272px;
+}
+#quienes-tabla{
+	width: 750px;
+	margin-top: 30px;
+	float: left;
+	margin-left: 220px;
+	margin-top: -15px;
+	-webkit-transform: rotate(350deg);
+    -moz-transform: rotate(350deg);
+    -o-transform: rotate(350deg);
+    writing-mode: lr-tb;
+}
+
+#quienes-tabla ul{
+	font-weight: bold;
+	list-style: none;
+}
+
+#quienes-lista2{margin-top: -57px;}
+
+#quienes-descripcion p{
+	width:600px;
+	text-align: left;
+	font-weight: bold;
+	margin-right: 220px;
+	-webkit-transform: rotate(350deg);
+    -moz-transform: rotate(350deg);
+    -o-transform: rotate(350deg);
+    writing-mode: lr-tb;
+}
+/********************************** CLIENTES *********************************/
+
+#clientes{
+	background-image: url(../img/elementos/5CLIENTES.png);
+	background-size: 100% 1000px;
+	background-repeat:no-repeat;
+	background-position:center; 
+	height: 1000px;
+	padding-top:50px;
+}
+#clientesElementos1{margin-bottom: 20px; display: block}
+#clientesElementos2{margin-top: 20px; margin-right:250px; display: block; float: right;}
+#clientesElementos3{display: block; float: left; margin-left:250px; margin-top: 95px}
+#clientes-c2{
+	display: block;
+	margin-top: 100px;
+}
+#clientes-c2 img{
+	display: block;
+
+}
+#clientes-title{
+	display: block;
+	float: left;
+	font-size: 77px;
+	width: 265px;
+	line-height: 0.8;
+	margin-left: 530px;
+	margin-top: 485px;
+	z-index: 1;
+	position: absolute;
+    -webkit-transform: rotate(345deg);
+    -moz-transform: rotate(345deg);
+    -o-transform: rotate(345deg);
+    writing-mode: lr-tb;
+}
+#clientesElementos4{position: absolute; margin-left: 480px; margin-top: 440px;}
+#clientesElementos5{position: absolute;	margin-top: 637px;	margin-left: 1050px;}
+
+/********************************** PORTAFOLIO *********************************/
+
+#portafolio{
+	background-image: url(../img/elementos/6PORTAFOLIO.png), url(../img/elementos/6PORTAFOLIOelementosSINTEXTO.png);
+	background-repeat:no-repeat;
+	background-position:center, center 350px; 
+	height: 1105px;
+	margin-bottom: 20px;
+}
+
+#impresos-txt{
+	margin-top: 491px;
+	margin-left: 490px;
+    -webkit-transform: rotate(343deg);
+    -moz-transform: rotate(343deg);
+    -o-transform: rotate(343deg);
+    writing-mode: lr-tb;
+}
+
+#web-txt{
+	margin-top: 491px;
+	margin-left: 18px;
+    -webkit-transform: rotate(343deg);
+    -moz-transform: rotate(343deg);
+    -o-transform: rotate(343deg);
+    writing-mode: lr-tb;
+}
+
+#logo-txt{
+	margin-top: 480px;
+	margin-left: 28px;
+    -webkit-transform: rotate(373deg);
+    -moz-transform: rotate(373deg);
+    -o-transform: rotate(373deg);
+    writing-mode: lr-tb;
+}
+.logo-txt2{
+	margin-top: 473px  !important ;
+	margin-left: 17px !important;
+    -webkit-transform: rotate(311deg) !important;
+    -moz-transform: rotate(311deg) !important;
+    -o-transform: rotate(311deg);
+    writing-mode: lr-tb !important;
+}
+
+#retoques-txt{
+	margin-top: 500px;
+	margin-left: 9px;
+    -webkit-transform: rotate(348deg);
+    -moz-transform: rotate(348deg);
+    -o-transform: rotate(348deg);
+    writing-mode: lr-tb;
+}
+
+.muro{
+	width:664px;
+	float:left;
+	margin-top: 50px;
+	margin-left: 312px;
+}
+
+.muro table{
+	width:664px;
+	overflow: hidden;
+	border-collapse: collapse;
+}
+
+.muro td{
+	cursor: pointer;
+	background-size: 400px;
+}
+
+.muro tr, td{
+	width:166px;
+	height:166px;
+}
+
+.muro td > img {
+	cursor: pointer;
+	width:162px;
+	height:162px;
+	vertical-align: top;
+}
+
+
+#impresos-img1{	background-image: url('../img/impresos/1.png'); background-position: 200px center;}
+#impresos-img2{	background-image: url('../img/impresos/2.png'); background-position: 289px center;}
+#impresos-img3{	background-image: url('../img/impresos/3.png');	background-position: 280px 193px;}
+#impresos-img4{	background-image: url('../img/impresos/4.png');	background-position: 295px center;}
+#impresos-img5{	background-image: url('../img/impresos/5.png'); background-position: 260px center;}
+#impresos-img6{	background-image: url('../img/impresos/6.png'); background-position: 289px center;}
+#impresos-img7{	background-image: url('../img/impresos/7.png');	background-position: center center;}
+#impresos-img8{	background-image: url('../img/impresos/8.png');	background-position: 295px center;}
+#impresos-img9{	background-image: url('../img/impresos/9.png');	background-position: 295px center;}
+#impresos-img10{background-image: url('../img/impresos/10.png');background-position: 295px center;}
+#impresos-img11{background-image: url('../img/impresos/11.png');background-position: 295px center;}
+#impresos-img12{background-image: url('../img/impresos/12.png');background-position: 295px center;}
+
+#retoques-img1{	background-image: url('../img/retoques/1Corregida.png');background-position: 295px center;}
+#retoques-img2{	background-image: url('../img/retoques/2Corregida.png');background-position: 295px center;}
+#retoques-img3{	background-image: url('../img/retoques/3Corregida.png');background-position: 295px center;}
+#retoques-img4{	background-image: url('../img/retoques/4Corregida.png');background-position: 295px center;}
+#retoques-img5{	background-image: url('../img/retoques/5Corregida.png');background-position: 295px center;}
+#retoques-img6{	background-image: url('../img/retoques/6Corregida.png');background-position: 295px center;}
+
+#logo-img1{	background-image: url('../img/logos/1.png');background-position: 295px center;}
+#logo-img2{	background-image: url('../img/logos/2.png');background-position: 295px center;}
+#logo-img3{	background-image: url('../img/logos/3.png');background-position: 295px center;}
+#logo-img4{	background-image: url('../img/logos/4.png');background-position: 295px center;}
+#logo-img5{	background-image: url('../img/logos/5.png');background-position: 295px center;}
+#logo-img6{	background-image: url('../img/logos/6.png');background-position: 295px center;}
+#logo-img7{	background-image: url('../img/logos/7.png');background-position: 295px center;}
+#logo-img8{	background-image: url('../img/logos/8.png');background-position: 295px center;}
+#logo-img9{	background-image: url('../img/logos/9.png');background-position: 295px center;}
+#logo-img10{background-image: url('../img/logos/10.png');background-position: 295px center;}
+#logo-img11{background-image: url('../img/logos/11.png');background-position: 295px center;}
+#logo-img12{background-image: url('../img/logos/12.png');background-position: 295px center;}
+
+#web-img1{	background-image: url('../img/web/1.png');background-position: 295px -55px;}
+#web-img2{	background-image: url('../img/web/2.png');background-position: 295px -55px;}
+#web-img3{	background-image: url('../img/web/3.png');background-position: 295px -55px;}
+#web-img4{	background-image: url('../img/web/4.png');background-position: 295px -55px;}
+#web-img5{	background-image: url('../img/web/5.png');background-position: 295px -55px;}
+#web-img6{	background-image: url('../img/web/6.png');background-position: 295px -55px;}
+#web-img7{	background-image: url('../img/web/7.png');background-position: 295px -55px;}
+#web-img8{	background-image: url('../img/web/8.png');background-position: 295px -55px;}
+
+
+#cajaTxtPortafolio{
+	float: left;
+	margin-left: 39px;
+}
+
+.txtPortafolio{
+	float:left;
+	font-family:'Candy','Lily Script One';
+	font-size: 33px;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.txtPortafolio:hover{color: pink;}
+.txtPortafolioRosa{	color:pink;}
+
+/********************************** NAVEGACION MURO PORTAFOLIO *********************************/
+.nav-muro ul{list-style: none;}
+.nav-muro ul li {
+	height: 17px;
+	width: 17px;
+	background-image: url(../img/star.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+	display: inline-block;
+}
+.nav-muro ul li a {
+	color: #000;
+	text-decoration: none;
+}
+/********************************** FANCY BOX PORTAFOLIO *********************************/
+.fancyboxPortafolio400{
+	display: block !important;
+	width:400px;
+	height:400px;
+	margin-left: 440px;
+	margin-top: 400px;
+	position: absolute;
+	overflow: hidden;
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 20;
+}
+
+.fancyboxPortafolio600{
+	display: block !important;
+	width:600px;
+	height:600px;
+	cursor: pointer;
+	margin-left: 340px;
+	margin-top: 35%;
+	position: absolute;
+	overflow: hidden;
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 20;
+}
+.fancyboxPortafolio800{
+	display: block !important;
+	width:800px;
+	height:400px;
+	margin-left: 256px;
+	margin-top: 30%;
+	position: absolute;
+	overflow: hidden;
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: 7px center, 412px center;
+	z-index: 20;
+}
+
+/********************************** CSS PARA CHROME *********************************/
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+	#cajaTxtPortafolio{margin-left: 42px;}
+	#guia{padding-top: 298px;}
+	#home-title{margin-bottom: 20px;}
+}
+
+
+
+/********************************** REDES SOCIALES *********************************/
+
+#redesSociales ul{list-style: none;}
+#redesSociales ul >li{display: inline-block;}
+#redesSociales ul >li img{width: 50px;}
+#redesSociales ul >li img:hover{opacity: 0.4;}
+#irArriba{margin-right:40px;}
+
+
+/********************************** CONTACTO *********************************/
+
+#contacto{margin-bottom: 100px;}
+
+#contacto h1{
+	font-size: 40px;
+	font-family:'Candy','Lily Script One';
+}
+
+#contacto form span{
+	color: #000;
+	font-family:'Candy','Lily Script One';
+	font-weight: bold;
+    -webkit-transform: rotate(354deg);
+    -moz-transform: rotate(354deg);
+    -o-transform: rotate(354deg);
+    writing-mode: lr-tb;
+}
+
+.botonF{
+	margin-top: 50px;
+	background-color: #000;
+	padding: 0px 10px;
+	color: #fff;
+	margin-left: 145px;
+	margin-bottom: 20px;
+	border-style: none;
+	font-family:'Candy','Lily Script One';
+	font-weight: bold;
+	font-size: 32px;
+}
+input[type="text"], input[type="email"]{
+	height: 25px;
+    border: 1px solid #000;
+    padding: 4px;
+    font-size: 18px;
+    width: 95%;
+}
+input[type="text"]:focus, input[type="email"]:focus{ border: 1px #000 solid;}
+textarea{
+	font-size: 18px !important;
+	width: 97% !important;
+    border: 1px solid #000;
+	height: 50px;
+}
+
+#pinguino-escribeme{cursor: pointer; margin-right: 100px;}
+.campoIzq{width: 15%;}
+.campoIzq span{	margin-left: 20%;}
+#tform tbody{width: 50%; padding: 10px; border: 1px solid #000; 
+
+    -moz-box-shadow: 3px 5px 14px #000000;
+    -webkit-box-shadow: 3px 5px 14px #000000;
+    box-shadow: 3px 5px 14px #000000;
+
+}
+#tform tr,td{height: 10px !important;}
+
+.lightbox-target {
+	position: absolute;
+	overflow: hidden;
+}
+
+
+/********************************** IDIOMA *********************************/
+
+#idioma{
+	background-image: url(../img/Pagina-Idioma.png);
+	background-size: 100% auto;
+	background-repeat:no-repeat;
+	background-position:center; 
+	height: 1000px;
+}
+
+#caja-idiomas{
+	float: left;
+	margin-left: 115px;
+	margin-top: 150px;
+    -webkit-transform: rotate(348deg);
+    -moz-transform: rotate(348deg);
+    -o-transform: rotate(348deg);
+    writing-mode: lr-tb;
+}
+#pinguinos{
+	float: right;
+	margin-right: 8%;
+	margin-top: 760px;
+}
+
+#esp,#ing{
+	font-size: 60px;
+	display: block;
+	color: #000;
+	cursor: pointer;
+}
+
+#pinguino-verde{
+	margin-right: 20px;
+	margin-top: 44px;
+	width: 146px;
+}
+
+#pinguino-amarillo{	width:78px;}
+
+#pinguino-verde, #pinguino-amarillo{cursor: pointer;}
+
+
+/********************************** MEDIA QUERIES *********************************/
+/*@media (max-width: 600px) {
+	body{background-color: pink	}
+	.caja{width: 100%;}
+	#barraCargando{	display:none;}
+	#idioma{background-image: none;	background-color: #fff;	height: 0px;}
+	#pinguinos{display: none;}
+	#guiaElementos1{display: none}
+	#guiaElementos2{margin-top: 336px; margin-left: -100px;}
+	#guiaElementos3{display: none}
+	#home{background-image: none;background-color: #000; height: 547px; padding-top: 50px; height: 500px}
+	#homeElementos1,#homeElementos2, #quienes_somosElementos,#clientesElementos4, #clientesElementos5, #clientes-c2 img{display: none;}
+	#quienes-tabla, #quienes-descripcion p, #quienes-title, #home-descripcion p, #home-title{
+		margin-left: 0;     
+	    width: 100%;
+		-webkit-transform: rotate(0);
+	    -moz-transform: rotate(0);
+	    -o-transform: rotate(0);
+	    writing-mode: lr-tb;
+	}
+	#portafolio{background-image: none; height: 600px;}
+	#cajaTxtPortafolio{margin-left: 0}
+	.muro{margin-left:0; }
+	#quienes-title{margin-top: 60px; margin-bottom: 10px;}
+	#clientes{
+		height: 800px;
+	}
+	#clientesElementos1, #clientesElementos2, #clientesElementos3{ width:100px;}
+	#clientesElementos2{margin-top: 15px; margin-left: 285px; float: left; margin-right: 0; margin-left: 0; display: block;}
+	#clientesElementos3{margin-top: 0px; margin-left: 305px}
+	#clientes-title{
+		margin-top: 25px;
+		font-size: 72px;
+		width: 100%;
+		margin-left: 0;
+		-webkit-transform: rotate(0);
+	    -moz-transform: rotate(0);
+	    -o-transform: rotate(0);
+	    writing-mode: lr-tb;
+	}
+	#impresos-txt, #web-txt, #retoques-txt, #logo-txt{margin: 0 5px;		
+		-webkit-transform: rotate(0);
+	    -moz-transform: rotate(0);
+	    -o-transform: rotate(0);
+	    writing-mode: lr-tb; 
+	}
+	.sombra{margin-top: -30%;}
+	.fancyboxPortafolio800, .fancyboxPortafolio400, 
+	.fancyboxPortafolio800, .fancyboxPortafolio600{
+		margin: 0;
+	}
+
+} 
+
+@media (min-width: 602px) and (max-width: 1000px) {
+	body{background-color: green}
+	#cajaGrande{width: 100%;}
+	.caja{ width:900px;}
+	.muro{margin-top: 43px; margin-left: 113px;margin-bottom: 100px;}
+	#homeElementos1{margin-left: 210px;margin-top: 5px;	}
+	#homeElementos2{margin-left: 20px;margin-top: 80px;	}
+	#guiaElementos1{margin-left: 509px; margin-top: 80px;}
+	#guiaElementos3{margin-left: 5px; margin-top: 195px;}
+	#quienes_somosElementos{margin-left: 610px;	margin-top: -265px;	}
+	#clientes-title{margin-left: 435px;}
+	#clientesElementos2{margin-right: 10px;}
+	#clientesElementos3{margin-left: 100px;}
+	#clientesElementos4{margin-left: 385px;}
+	#clientesElementos5{margin-left: 880px;}
+	#pinguinos{	margin-right: 30px; margin-top: }
+	#quienes-tabla{	margin-left: 0;}
+	#quienes-title{ margin-left: 14px;	}
+	#impresos-txt{ margin-left:295px;}
+	#clientesElementos5{display: none !important}
+}*/

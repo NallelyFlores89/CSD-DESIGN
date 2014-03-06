@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+	    <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">	    
+	    <title>CSD</title>
+	    <link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="superscrollorama/css/normalize.css" type="text/css">
+		<link href='http://fonts.googleapis.com/css?family=Lily+Script+One' rel='stylesheet' type='text/css'>
+
+	    <script src="js/js.js"></script>
+	</head>
+
+	<body>
+
+		<div id="barraCargando">
+			Cargando Contenido
+		</div> 
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script>
+			$(function(){
+			var barraCargando=$('#barraCargando');
+			barraCargando.animate({'opacity':0},1200,function(){$(this).css('display','none'); });
+			});
+		</script> 
+
+		<center>
+			<div id="idioma">
+				<span id='caja-idiomas'>
+					<span class="fuente-candy" id="esp">selecciona tu idioma</span>
+					<span class="fuente-candy" id="ing">select your language</span>
+				</span>
+				<span id="pinguinos">
+					<img id="pinguino-verde" src="img/Pagina-IdiomaCURVASpinguinoVerde.png">
+					<img id="pinguino-amarillo" src="img/Pagina-Idioma-CURVASpinguinoAmarillo.png">
+				</span>
+			</div>
+		</center>
+		
+		<center>
+		<div id="cajaGrande">
+			<div id="sombra"></div>
+			<div class="caja" id="inicio">
+				<center><img src="img/Pagina-IdiomaCURVASlogo.png"></center>
+			</div>
+			
+			<div class="caja" id="guia">
+				<span id="guia-hola" class="fuente-candy">Hola!</span>
+				<span id="guia-somos" class="fuente-arial">bienvenido!<br>somos...</span>
+				<span id="guia-instrucciones" class="fuente-arial">Usa tu MOUSE para ir
+				bajando y navegar el sitio!</span>
+				<span id="guia-disfruta" class="fuente-candy">disfruta el viaje!</span>
+
+				<center>
+					<img id="guiaElementos1" src="img/elementos/2GUIAelementos1.png">
+					<img id="guiaElementos2" src="img/elementos/2GUIAelementos2.png">
+					<img id="guiaElementos3" src="img/elementos/2GUIAelementos3.png">
+				</center>
+			</div>
+
+			<div class="caja" id="home">
+				<span id="home-title" class="fuente-candy">el epicentro de ideas, conceptos y soluciones creativas.</span>
+				<span id="home-descripcion" >
+					<p class="fuente-arial">CSD Carrasco Diseño es una empresa consultora creativa que -por primera vez- víncula el diseño creativo al crecimiento de su empresa o negocio.</p>
+					<p id="homep2" class="fuente-arial">Nuestros creativos trabajan con nuestros clientes para redefinir toda su estrategia empresarial de dentro hacia fuera.</p>
+					<p id="homep3" class="fuente-arial">Combinamos talento creativo con estrategia experta en crecimiento para redefinir su imagen coorporativa -dónde primero descubrimos el corazón de su empresa o negocio y localizamos sus oportunidades de crecimiento, y seguido implemantamos en paralelo, la ejecución de una estrategia de marketing alineada con Web site, gráficos y vídeos</p>
+				</span>
+				<img id="homeElementos1" src="img/elementos/3HOMEelementos1.png">
+				<img id="homeElementos2" src="img/elementos/3HOMEelementos2.png">
+			</div>
+
+			<div class="" id="quienes_somos">
+				<span id="quienes-title" class="fuente-candy caja">lo que hacemos</span>
+				<span id="quienes-descripcion" class="caja">
+					<p class="fuente-arial">Descubrimos, visualizamos, creamos e inspiramos mediante la creación de marcas. Creamos o rediseñamos la nueva imagen de su compañía o empresa gráficamente hablando, ofreciendo un arsenal de soluciones creativas</p>
+					<table id="quienes-tabla">
+						<tbody>
+							<tr>
+								<td>
+									<ul id="quienes-lista1" class="fuente-arial">
+										<li>Crecimiento estrátegico de la marca</li>
+										<li>Diseño interactivo</li>
+										<li>Desarrollo de Sistemas</li>
+										<li>Desarrollo de Experiencia del Usuario</li>
+										<li>Motion Graphics & 3D</li>
+										<li>Diseño del Sitio y Desarrollo</li>
+									</ul>
+								</td>
+								<td>
+									<ul id="quienes-lista2" class="fuente-arial">
+										<li>Diseño de la Marca y Estrategia</li>
+										<li>Ideas y conceptos</li>
+									</ul>									
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<img id="quienes_somosElementos" src="img/elementos/4QUIENESSOMOSelementos.png">
+				</span>
+			</div>
+
+			<div class="" id="clientes">
+				<span id="clientes-c1" class="caja">
+					<img id="clientesElementos1" src="img/elementos/5CLIENTESelementos1.png">
+					<img id="clientesElementos2" src="img/elementos/5CLIENTESelementos2.png">
+					<img id="clientesElementos3" src="img/elementos/5CLIENTESelementos3.png">
+				</span>
+				<span id="clientes-c2" class="caja">
+					<span id="clientes-title" class="fuente-candy">nuestros amigos y clientes</span>
+					<img id="clientesElementos4" src="img/elementos/5CLIENTESelementos4.png">
+					<img id="clientesElementos5" src="img/elementos/5CLIENTESelementos5.png">
+				</span>
+			</div>		
+
+			<div class="caja" id="portafolio">
+				<span id="fancyboxPortafolio"></span>
+
+				<span id="cajaTxtPortafolio">
+					<span class="txtPortafolio" id="impresos-txt">impresos</span>
+					<span class="txtPortafolio" id="retoques-txt">retoques</span>
+					<span class="txtPortafolio" id="web-txt">web</span>
+					<span class="txtPortafolio" id="logo-txt">logo</span>
+				</span>
+
+				<span class="muro" id="muroLogo">
+					<table>
+						<tr id="murologo-1">
+							<td id="logo-img1"></td>
+							<td id="logo-img2"></td>
+							<td id="logo-img3"></td>
+							<td id="logo-img4"></td>
+						</tr>
+						<tr id="murologo-2">
+							<td id="logo-img5"></td>
+							<td id="logo-img6"></td>
+							<td id="logo-img7"></td>
+							<td id="logo-img8"></td>
+						</tr>
+						<tr id="murologo-3">
+							<td id="logo-img9"></td>
+							<td id="logo-img10"></td>
+							<td id="logo-img11"></td>
+							<td id="logo-img12"></td>
+						</tr>
+					</table>
+					<center><span id="nav-logo" class="nav-muro">
+						<ul>
+							<li><a href="murologo-1"></a></li>
+							<li><a href="murologo-3"></a></li>
+						</ul>
+					</span></center>
+				</span>
+
+				<span class="muro" id="muroRetoques">
+					<table>
+						<tr id="murotoque-1">
+							<td class="retoq" id="retoques-img1"><a href="img/retoques/1Original.png"></a></td>
+							<td class="retoq" id="retoques-img2"><a href="img/retoques/2Original.png"></a></td>
+							<td class="retoq" id="retoques-img3"><a href="img/retoques/3Original.png"></a></td>
+							<td class="retoq" id="retoques-img4"><a href="img/retoques/4Original.png"></a></td>
+						</tr>
+						<tr id="murotoque-2">
+							<td class="retoq" id="retoques-img5"><a href="img/retoques/5Original.png"></a></td>
+							<td class="retoq" id="retoques-img6"><a href="img/retoques/6Original.png"></a></td>
+						</tr>
+					</table>
+					<center><span id="nav-retoques" class="nav-muro">
+						<ul>
+							<li><a href="murotoque-1"></a></li>
+							<li><a href="murotoque-3"></a></li>
+						</ul>
+					</span></center>
+				</span>
+
+				<span class="muro" id="muroWeb">
+					<table>
+						<tr id="muroweb-1">
+							<td class="fancy600" id="web-img1"><a href="http://jkanime.net/"></a></td>
+							<td class="fancy600" id="web-img2"><a href="http://google.com/"></a></td>
+							<td class="fancy600" id="web-img3"><a href=""></a></td>						
+							<td class="fancy600" id="web-img4"><a href=""></a></td>
+						</tr>
+						<tr id="muroweb-2">
+							<td class="fancy600" id="web-img5"><a href=""></a></td>
+							<td class="fancy600" id="web-img6"><a href=""></a></td>
+							<td class="fancy600" id="web-img7"><a href=""></a></td>
+							<td class="fancy600" id="web-img8"><a href=""></a></td>
+						</tr>
+					</table>
+					<center><span id="nav-web" class="nav-muro">
+						<ul>
+							<li><a href="muroweb-1"></a></li>
+							<li><a href="muroweb-3"></a></li>
+						</ul>
+					</span></center>	
+				</span>
+
+				<span class="muro" id="muroImpresos">
+					<table>
+						<tr id="muroImpresos-1">
+							<td id="impresos-img1"></td>
+							<td id="impresos-img2"></td>
+							<td id="impresos-img3"></td>
+							<td id="impresos-img4"></td>
+						</tr>
+						<tr id="muroImpresos-2">
+							<td id="impresos-img5"></td>
+							<td id="impresos-img6"></td>
+							<td id="impresos-img7"></td>
+							<td id="impresos-img8"></td>
+						</tr>
+						<tr id="muroImpresos-3">
+							<td id="impresos-img9"></td>
+							<td id="impresos-img10"></td>
+							<td id="impresos-img11"></td>
+							<td id="impresos-img12"></td>
+						</tr>
+					</table>	
+					<center><span id="nav-impresos" class="nav-muro">
+						<ul>
+							<li><a href="muroImpresos-1"></a></li>
+							<li><a href="muroImpresos-3"></a></li>
+						</ul>
+					</span></center>
+				</span>
+			</div>				
+
+			<div id="contacto" class="caja">
+				<form id="formC" method="post" action="correo.php" class="lightbox-target caja">
+					<table id="tform"></table>
+				</form>
+				<span class="caja">
+					<img id="pinguino-escribeme" src="img/elementos/6LLAMAME.png">
+					<img id="pinguino-llamame" src="img/elementos/6LLAMAME-2.png">
+				</span>
+
+			</div>
+
+			<div id="redesSociales" class="caja">
+				<center>
+					<ul>
+						<li><a id="irArriba" href="#cajaGrande"><img src="img/media/flecha.png"></a></li>
+						<li><a id="linkedin" target="_blank" href="http://www.linkedin.com/pub/cristian-carrasco/60/599/72"><img src="img/media/linkedin.png"></a></li>
+						<li><a id="twitter" target="_blank" href="#"><img src="img/media/twitter.png"></a></li>
+						<li><a id="face" target="_blank" href="https://www.facebook.com/CsdCarrascoDiseno"><img src="img/media/face.png"></a></li>
+					</ul>
+				</center>
+			</div> 
+		</div> <!--caja grande -->
+		</center>
+
+		<script type="text/javascript" src="superscrollorama/js/greensock/TweenMax.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	  	<script>window.jQuery || document.write('<script src="_/js/jquery-1.9.1.min.js"><\/script>')</script>
+	  	<script src="superscrollorama/js/jquery.superscrollorama.js"></script>
+	    <script src="js/js.js"></script>
+	</body>
+</html>
